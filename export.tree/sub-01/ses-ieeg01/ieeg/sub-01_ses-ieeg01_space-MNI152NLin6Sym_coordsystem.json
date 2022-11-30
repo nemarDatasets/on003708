@@ -1,7 +1,0 @@
-{
-    "iEEGCoordinateSystem": "MNI152NLin6Sym",
-    "iEEGCoordinateUnits": "mm",
-    "iEEGCoordinateSystemDescription": "Also known as symmetric ICBM 6th generation (non-linear coregistration). Used by SPM99 - SPM8.",
-    "iEEGCoordinateProcessingDescription": "surface projection and MNI positions calculated using SPMs segmentation/normalization",
-    "iEEGCoordinateProcessingReference": "Hermes et al., 2008"
-}
