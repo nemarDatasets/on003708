@@ -1,36 +1,102 @@
 {
   "version": "2.0",
-  "dataset_id": "on003708",
-  "source": "openneuro",
-  "source_id": "ds003708",
+  "pipeline_stage": "enriched",
   "title": "Basis profile curve identification to understand electrical stimulation effects in human brain networks",
-  "authors": {
-    "Dora Hermes": {},
-    "Gabriella Ojeda": {},
-    "Kai J. Miller": {},
-    "Multimodal Neuroimaging Laboratory at Mayo Clinic": {}
-  },
   "license": "CC0",
   "dataset_type": "raw",
+  "authors": {
+    "Dora Hermes": {
+      "orcid": "0000-0002-8683-8909"
+    },
+    "Gabriella Ojeda": {},
+    "Kai J. Miller": {
+      "orcid": "0000-0002-6687-6422"
+    },
+    "Multimodal Neuroimaging Laboratory at Mayo Clinic": {}
+  },
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds003708.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "10.1101/2021.01.24.428020",
+      "identifier_type": "DOI",
+      "relation_type": "References"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on003708",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003708",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
-  ],
-  "pipeline_stage": "seeded",
-  "bids_version": "v 1.3.0",
-  "recording_modality": [
-    "ieeg"
-  ],
-  "datatypes": [
-    "ieeg"
   ],
   "funding_references": [
     {
       "funder_name": "R01 MH122258 CRCNS: Processing speed in the human connectome across the lifespan"
+    },
+    {
+      "funder_name": "NIH",
+      "award_number": "R01MH122258",
+      "award_title": "CRCNS: Processing speed in the human connectome across the lifespan"
     }
   ],
-  "acknowledgements": "Nicholas Gregg, Brian Lundstom, Kai Miller, Gregory Worrell, Cindy Nelson"
+  "modalities": [
+    "ieeg"
+  ],
+  "resource_type_specific": "iEEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".gitattributes",
+    ".json",
+    ".md",
+    ".tdat",
+    ".tidx",
+    ".tmet",
+    ".tsv"
+  ],
+  "description": "This dataset comprises intracranial EEG recordings from a single patient undergoing single-pulse electrical stimulation, collected at Mayo Clinic as part of an NIH-funded initiative to develop a comprehensive database of stimulation responses. The study aims to advance understanding of human brain connectivity and network responses to electrical stimulation across the lifespan through systematic characterization of evoked potentials and network effects. The patient was at rest during the stimulation protocol.",
+  "methods_description": "Intracranial EEG recordings were obtained during single-pulse electrical stimulation delivered at approximately 0.2 Hz with 200-microsecond biphasic pulses at 6 mA amplitude (reduced to 1-2 mA over motor cortex to minimize movement artifacts). Patients were at rest during the stimulation protocol.",
+  "keywords": [
+    {
+      "term": "intracranial EEG"
+    },
+    {
+      "term": "electrical stimulation"
+    },
+    {
+      "term": "brain networks"
+    },
+    {
+      "term": "connectome"
+    },
+    {
+      "term": "Evoked Potentials",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005071"
+    },
+    {
+      "term": "single-pulse stimulation"
+    },
+    {
+      "term": "motor cortex"
+    },
+    {
+      "term": "BIDS"
+    },
+    {
+      "term": "clinical"
+    },
+    {
+      "term": "Mayo Clinic"
+    }
+  ],
+  "source_hash": "3ed2e66052c56bf5b2864430017c65f64661a99e05cdb95bcb13b44a39d77dfb"
 }
