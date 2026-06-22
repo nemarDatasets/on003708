@@ -1,7 +1,9 @@
 {
   "version": "2.0",
-  "pipeline_stage": "enriched",
+  "pipeline_stage": "validated",
   "title": "Basis profile curve identification to understand electrical stimulation effects in human brain networks",
+  "description": "This dataset comprises intracranial EEG recordings from a single patient undergoing single-pulse electrical stimulation, collected at Mayo Clinic as part of an NIH-funded initiative to develop a comprehensive database of stimulation responses. The study aims to advance understanding of human brain connectivity and network responses to electrical stimulation across the lifespan through systematic analysis of evoked potentials and network effects.",
+  "methods_description": "Intracranial EEG recordings were obtained during single-pulse electrical stimulation delivered at approximately 0.2 Hz with 200-microsecond biphasic pulses at 6 mA amplitude (reduced to 1-2 mA on motor cortex to minimize movement artifacts). Patients were at rest during the recording sessions.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -14,12 +16,29 @@
     },
     "Multimodal Neuroimaging Laboratory at Mayo Clinic": {}
   },
-  "related_identifiers": [
+  "keywords": [
     {
-      "identifier": "10.18112/openneuro.ds003708.v1.0.0",
-      "identifier_type": "DOI",
-      "relation_type": "IsIdenticalTo"
+      "term": "intracranial EEG"
     },
+    {
+      "term": "electrical stimulation"
+    },
+    {
+      "term": "brain connectivity"
+    },
+    {
+      "term": "connectome"
+    },
+    {
+      "term": "Evoked Potentials",
+      "subject_scheme": "MeSH",
+      "value_uri": "http://id.nlm.nih.gov/mesh/D005071"
+    },
+    {
+      "term": "single-pulse stimulation"
+    }
+  ],
+  "related_identifiers": [
     {
       "identifier": "10.1101/2021.01.24.428020",
       "identifier_type": "DOI",
@@ -34,6 +53,11 @@
       "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003708",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds003708.v1.0.0",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
     }
   ],
   "funding_references": [
@@ -46,12 +70,12 @@
       "award_title": "CRCNS: Processing speed in the human connectome across the lifespan"
     }
   ],
+  "resource_type_specific": "iEEG Dataset",
   "modalities": [
     "ieeg"
   ],
-  "resource_type_specific": "iEEG Dataset",
   "sizes": [
-    "0.0 KB (1 files)"
+    "650.2 MB (268 files)"
   ],
   "formats": [
     ".gitattributes",
@@ -60,43 +84,8 @@
     ".tdat",
     ".tidx",
     ".tmet",
-    ".tsv"
+    ".tsv",
+    ".yml"
   ],
-  "description": "This dataset comprises intracranial EEG recordings from a single patient undergoing single-pulse electrical stimulation, collected at Mayo Clinic as part of an NIH-funded initiative to develop a comprehensive database of stimulation responses. The study aims to advance understanding of human brain connectivity and network responses to electrical stimulation across the lifespan through systematic characterization of evoked potentials and network effects. The patient was at rest during the stimulation protocol.",
-  "methods_description": "Intracranial EEG recordings were obtained during single-pulse electrical stimulation delivered at approximately 0.2 Hz with 200-microsecond biphasic pulses at 6 mA amplitude (reduced to 1-2 mA over motor cortex to minimize movement artifacts). Patients were at rest during the stimulation protocol.",
-  "keywords": [
-    {
-      "term": "intracranial EEG"
-    },
-    {
-      "term": "electrical stimulation"
-    },
-    {
-      "term": "brain networks"
-    },
-    {
-      "term": "connectome"
-    },
-    {
-      "term": "Evoked Potentials",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D005071"
-    },
-    {
-      "term": "single-pulse stimulation"
-    },
-    {
-      "term": "motor cortex"
-    },
-    {
-      "term": "BIDS"
-    },
-    {
-      "term": "clinical"
-    },
-    {
-      "term": "Mayo Clinic"
-    }
-  ],
-  "source_hash": "3ed2e66052c56bf5b2864430017c65f64661a99e05cdb95bcb13b44a39d77dfb"
+  "source_hash": "66050566affae735087d64fe2c97e82479c4d85df7e73f7f82c81c1b94edf871"
 }
