@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on003708-blue)](https://doi.org/10.82901/nemar.on003708)
+
 --------
 This dataset contains intracranial EEG recordings from one patient during single pulse electrical stimulation. These data were recorded at the Mayo Clinic in Rochester, MN, as part of the NIH Brain Initiative supported project R01 MH122258 "CRCNS: Processing speed in the human connectome across the lifespan". 
 
