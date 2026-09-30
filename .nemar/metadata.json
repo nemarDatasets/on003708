@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Basis profile curve identification to understand electrical stimulation effects in human brain networks",
-  "description": "This dataset comprises intracranial EEG recordings from a single patient undergoing single-pulse electrical stimulation, collected at Mayo Clinic as part of an NIH-funded initiative to develop a comprehensive database of stimulation responses. The study aims to advance understanding of human brain connectivity and network responses to electrical stimulation across the lifespan through systematic analysis of evoked potentials and network effects.",
-  "methods_description": "Intracranial EEG recordings were obtained during single-pulse electrical stimulation delivered at approximately 0.2 Hz with 200-microsecond biphasic pulses at 6 mA amplitude (reduced to 1-2 mA on motor cortex to minimize movement artifacts). Patients were at rest during the recording sessions.",
+  "description": "This dataset contains intracranial EEG (iEEG) recordings from one patient undergoing single pulse electrical stimulation at the Mayo Clinic. It was collected to study the effects of electrical stimulation on human brain networks, and it supports a larger effort to build a database of single pulse stimulation data for understanding the human connectome across the lifespan. The data accompany a paper on basis profile curve identification.",
+  "methods_description": "The patient rested in a hospital bed while single pulse electrical stimulation was delivered at about 0.2 Hz. Pulses were biphasic, 200 microseconds long, and 6 mA in amplitude. Amplitude was sometimes reduced to 1 or 2 mA over motor cortex to minimize movement artifacts.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -21,28 +21,28 @@
       "term": "intracranial EEG"
     },
     {
+      "term": "single pulse electrical stimulation"
+    },
+    {
       "term": "electrical stimulation"
     },
     {
-      "term": "brain connectivity"
+      "term": "human connectome"
     },
     {
-      "term": "connectome"
-    },
-    {
-      "term": "Evoked Potentials",
+      "term": "Electrocorticography",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D005071"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
     },
     {
-      "term": "single-pulse stimulation"
+      "term": "brain networks"
     }
   ],
   "related_identifiers": [
     {
       "identifier": "10.1101/2021.01.24.428020",
       "identifier_type": "DOI",
-      "relation_type": "References"
+      "relation_type": "IsDescribedBy"
     },
     {
       "identifier": "https://github.com/nemarDatasets/on003708",
@@ -50,14 +50,14 @@
       "relation_type": "IsDescribedBy"
     },
     {
-      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on003708",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
       "identifier": "10.18112/openneuro.ds003708.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/on003708",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -65,7 +65,7 @@
       "funder_name": "R01 MH122258 CRCNS: Processing speed in the human connectome across the lifespan"
     },
     {
-      "funder_name": "NIH",
+      "funder_name": "National Institute of Mental Health",
       "award_number": "R01MH122258",
       "award_title": "CRCNS: Processing speed in the human connectome across the lifespan"
     }
@@ -75,7 +75,7 @@
     "ieeg"
   ],
   "sizes": [
-    "650.2 MB (268 files)"
+    "620 MB (268 files)"
   ],
   "formats": [
     ".gitattributes",
